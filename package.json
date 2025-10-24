@@ -7,11 +7,15 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "nodemon server.js",
+    "server:prod": "node server.js"
   },
   "dependencies": {
+    "codemirror": "^6.0.2",
     "express": "^5.1.0",
     "react": "^19.1.1",
+    "react-avatar": "^5.0.4",
     "react-dom": "^19.1.1",
     "react-hot-toast": "^2.6.0",
     "react-router-dom": "^7.9.3",
