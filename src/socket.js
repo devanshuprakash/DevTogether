@@ -1,11 +1,12 @@
-// import {io} from "socket.io-client";
+import { io } from 'socket.io-client';
 
-// export const initsocket = async ()=>{
-//     const options = {
-//         'force new connection':true,
-//         reconnectionAttempts:'Infinity',
-//         timeout:10000,
-//         transports:['websocket'],
-//     };
-//     return io(process.env.REACT_APP_BACKEND_URL,options);
-// }
+export function initSocket() {
+  const options = {
+    forceNew: true,
+    reconnectionAttempts: Infinity,
+    timeout: 10000,
+    transports: ['websocket'],
+  };
+  const url = import.meta?.env?.VITE_BACKEND_URL || 'http://localhost:4000';
+  return io(url, options);
+}

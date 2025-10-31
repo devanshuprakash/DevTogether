@@ -34,7 +34,7 @@ function Home() {
   return (
     <div className='homePageWrapper'>
         <div className='formWrapper'>
-          <img src="src/devrogether.png" alt="devtogether-logo" />
+          <img src="/src/devrogether.png" alt="devtogether-logo" />
           <h4 className='formTitle'>Paste invitation ROOM ID </h4>
           <div className='inputGroup'>
             <input type="text"  className='inputBox' placeholder='ROOM ID' value={roomId} 
