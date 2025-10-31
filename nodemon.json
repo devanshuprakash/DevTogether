@@ -1,0 +1,11 @@
+{
+  "watch": ["server"],
+  "ext": "js,mjs,json",
+  "exec": "node server/index.js",
+  "delay": "200ms",
+  "ignore": [
+    "node_modules",
+    "src",
+    "public"
+  ]
+}

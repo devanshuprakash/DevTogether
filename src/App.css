@@ -60,7 +60,7 @@ footer a{
   width:100px;
   margin-left:auto;
 }
-.joinBtn:hover{
+.joinBtn:hover {
   background: #027065;
 
 }
@@ -120,13 +120,22 @@ footer a{
 }
 
 .logoImage {
-    height: 120px;
-    width:200px
+    height: 12g0px;
+    width:200px;
+  
 }
 
 .leaveBtn {
+  background: #54bfed;
     width: 100%;
     margin-top: 20px;
+      color:black;
+    font-weight: bold;
+}
+.leaveBtn:hover {
+  background: #0278c6;
+    color:black;
+    font-weight: bold;
 }
 .CodeMirror {
     min-height: calc(100vh - 20px);
